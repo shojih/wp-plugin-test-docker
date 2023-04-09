@@ -1,4 +1,4 @@
-# WordPress+WP-CLI-Plugin Test Docker
+# WordPress+WP-CLI-Plugin Test Docker Template
 # 構成
 * アプリケーションサーバー:WordPressコンテナ
 * DBサーバー:mysqlコンテナ
