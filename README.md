@@ -5,7 +5,7 @@
 # 使い方
 ## 初回起動方法
 ```
-$ cd wp-plugin-test
+$ cd wp-plugin-test-docker
 $ ./build.sh
 $ docker compose up
 ```
