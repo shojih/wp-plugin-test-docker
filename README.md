@@ -1,4 +1,4 @@
-# WordPress+WP-CLI-Plugin Test Docker Template
+# WordPress+WP-CLI+WP-Plugin Test Docker Template
 # 構成
 * アプリケーションサーバー:WordPressコンテナ
 * DBサーバー:mysqlコンテナ
@@ -33,4 +33,4 @@ $ docker-compose down
 wordpress/wp-content
 ```
 $ docker-compose exec wordpress bash
-root@wordpress:/var/www/html# sudo /bin/plugin_install.sh
+root@wordpress:/var/www/html# sudo /bin/sh plugin_install.sh
