@@ -35,7 +35,7 @@ services:
        WORDPRESS_DB_PASSWORD: wordpress
      volumes:
        - ./wordpress:/var/www/html
-       - ./php/php.ini:/usr/local/etc/php/8.0/php.ini
+       - ./php/php.ini:/usr/local/etc/php/php.ini
        - ./init_wp.sh:/var/www/html/init_wp.sh
        - ./init_wp_test.sh:/var/www/html/init_wp_test.sh
        - ./init_wp_theme_test.sh:/var/www/html/init_wp_theme_test.sh
