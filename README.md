@@ -31,7 +31,6 @@ $ docker-compose down
 ```
 ## Plugin Install
 ```
-wordpress/wp-content
 $ docker-compose exec wordpress bash
 root@wordpress:/var/www/html# sudo /bin/sh plugin_install.sh
 ```
