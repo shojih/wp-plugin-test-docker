@@ -7,7 +7,7 @@
 ```
 $ git clone https://github.com/shojih/wp-plugin-test-docker.git
 $ cd wp-plugin-test-docker
-$ sh ./build.sh
+$ sh ./build.sh  or sh ./build611.sh
 $ docker compose up
 ```
 ## サイトへのアクセス
