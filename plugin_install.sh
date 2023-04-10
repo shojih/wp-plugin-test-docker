@@ -23,7 +23,6 @@ wp plugin install custom-post-type-ui --allow-root
 wp plugin install custom-post-types-relationships-cptr --allow-root
 wp plugin install custom-upload-dir --allow-root
 wp plugin install disable-wp-rest-api --allow-root
-#wp plugin install dorzki-notifications-to-slack --allow-root
 wp plugin install download-monitor --allow-root
 wp plugin install duplicate-page --allow-root
 wp plugin install duplicate-post --allow-root

@@ -10,3 +10,4 @@ if [ ! -e ./wordpress ]; then
 fi
 docker compose build
 docker compose run wordpress /bin/sh init_wp.sh
+

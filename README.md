@@ -5,6 +5,7 @@
 # 使い方
 ## 初回起動方法
 ```
+$ git clone https://github.com/shojih/wp-plugin-test-docker.git
 $ cd wp-plugin-test-docker
 $ ./build.sh
 $ docker compose up
@@ -34,3 +35,5 @@ wordpress/wp-content
 ```
 $ docker-compose exec wordpress bash
 root@wordpress:/var/www/html# sudo /bin/sh plugin_install.sh
+$ docker-compose exec wordpress bash
+root@wordpress:/var/www/html# sudo /bin/sh plugin_uninstall.sh

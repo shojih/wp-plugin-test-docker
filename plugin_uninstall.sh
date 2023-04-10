@@ -23,7 +23,6 @@ wp plugin uninstall custom-post-type-ui  --allow-root
 wp plugin uninstall custom-post-types-relationships-cptr  --allow-root
 wp plugin uninstall custom-upload-dir  --allow-root
 wp plugin uninstall disable-wp-rest-api  --allow-root
-#wp plugin uninstall dorzki-notifications-to-slack  --allow-root
 wp plugin uninstall download-monitor  --allow-root
 wp plugin uninstall duplicate-page  --allow-root
 wp plugin uninstall duplicate-post  --allow-root

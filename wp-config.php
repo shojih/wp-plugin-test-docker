@@ -81,13 +81,13 @@ $table_prefix = 'wp_';
  *
  * @link https://ja.wordpress.org/support/article/debugging-in-wordpress/
  */
-#define( 'WP_DEBUG', false );
-#define( 'FS_METHOD', 'direct' );
-ini_set( 'log_errors', 1 );
-ini_set( 'error_log', WP_CONTENT_DIR . '/debug123456789.log' ); //任意の名称を設定できます
+define( 'WP_DEBUG', false );
+define( 'FS_METHOD', 'direct' );
+/*
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 define( 'WP_DEBUG_LOG', true );
+*/
 
 /* 編集が必要なのはここまでです ! WordPress でのパブリッシングをお楽しみください。 */
 
