@@ -34,3 +34,8 @@ $ docker-compose down
 $ docker-compose exec wordpress bash
 root@wordpress:/var/www/html# sudo /bin/sh plugin_install.sh
 ```
+## Plugin Uninstall
+```
+$ docker-compose exec wordpress bash
+root@wordpress:/var/www/html# sudo /bin/sh plugin_uninstall.sh
+```
