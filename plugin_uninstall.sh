@@ -36,7 +36,6 @@ wp plugin uninstall google-sitemap-generator  --allow-root
 wp plugin uninstall gtranslate  --allow-root
 wp plugin uninstall hello-dolly  --allow-root
 wp plugin uninstall http-auth  --allow-root
-wp plugin uninstall index.php  --allow-root
 wp plugin uninstall infinite-scroll  --allow-root
 wp plugin uninstall instagrate-to-wordpress  --allow-root
 wp plugin uninstall intuitive-custom-post-order  --allow-root

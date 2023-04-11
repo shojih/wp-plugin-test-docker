@@ -36,7 +36,6 @@ wp plugin install google-sitemap-generator --allow-root
 wp plugin install gtranslate --allow-root
 wp plugin install hello-dolly --allow-root
 wp plugin install http-auth --allow-root
-wp plugin install index.php --allow-root
 wp plugin install infinite-scroll --allow-root
 wp plugin install instagrate-to-wordpress --allow-root
 wp plugin install intuitive-custom-post-order --allow-root
