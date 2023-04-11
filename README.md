@@ -34,6 +34,11 @@ $ docker-compose down
 $ docker-compose exec wordpress bash
 root@wordpress:/var/www/html# sudo /bin/sh plugin_install.sh
 ```
+## Plugin の状況確認
+```
+$ docker-compose exec wordpress bash
+root@wordpress:/var/www/html# wp plugin lsit --arrow-root
+```
 ## Plugin Uninstall
 ```
 $ docker-compose exec wordpress bash
